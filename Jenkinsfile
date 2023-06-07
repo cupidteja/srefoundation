@@ -9,7 +9,7 @@ pipeline {
   stages {
     stage("Application Code Cloning from GitLab"){
       steps{
-         git 'https://gitlab.com/jaya-narayana/srefoundationdp.git'
+         git 'https://github.com/cupidteja/srefoundation.git'
       }
     }
     stage('Packeging the Application'){
