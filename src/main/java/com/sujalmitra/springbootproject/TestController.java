@@ -10,6 +10,6 @@ public class TestController {
 
     @RequestMapping("/test")
     public String firstHandler() {
-        return "Just For Learning Purposes !! By Ravi teja ";
+        return "Just For Learning Purposes, By Ravi teja !!";
     }
 }
